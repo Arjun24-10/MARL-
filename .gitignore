@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Optional: ignore your weights if they are too large
+*.pth
+*.gif
