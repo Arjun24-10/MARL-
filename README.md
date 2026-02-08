@@ -16,7 +16,7 @@ Environment: Custom EV Routing (Gymnasium-based)
 Key Features: Reward shaping for efficiency, coordination under constraints, and automated performance logging.
 
 📂 Repository Structure
-Plaintext
+```text
 MARL-EV-Routing/
 ├── assets/               # Visuals, plots, and demo GIFs
 │   ├── Figure_1.png      # Training performance plot
@@ -35,6 +35,7 @@ MARL-EV-Routing/
 ├── test.py               # Evaluation and testing script
 ├── visualizer.py         # Helper for rendering agents
 └── .gitignore            # Files excluded from Git
+```
 
 📊 Results
 The agents demonstrate clear convergence as the training progresses. The plot below illustrates the cumulative reward improvement over episodes, showing the transition from random exploration to stable policy execution.
